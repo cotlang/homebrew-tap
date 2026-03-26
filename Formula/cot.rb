@@ -1,24 +1,24 @@
 class Cot < Formula
   desc "Write like TypeScript, run like Rust, deploy anywhere"
   homepage "https://github.com/cotlang/cot"
-  version "0.3.8"
+  version "0.3.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cotlang/cot/releases/download/v0.3.8/cot-aarch64-macos.tar.gz"
-      sha256 "5c4985e4241c9ec607715f4c70a7cbddc2404340de14b199e6e50c55d5045f1f"
+      url "https://github.com/cotlang/cot/releases/download/v0.3.9/cot-aarch64-macos.tar.gz"
+      sha256 "bff7685f075be8c16273f014767f6646c1d4e80df0f2c5cfb428f766f2f2e46d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cotlang/cot/releases/download/v0.3.8/cot-x86_64-linux.tar.gz"
-      sha256 "7e8dc9cef57a585a01ef3a71e0a84e5f61356276be217ab2c49443406d1328ff"
+      url "https://github.com/cotlang/cot/releases/download/v0.3.9/cot-x86_64-linux.tar.gz"
+      sha256 "8a60d09f5ddc0c21dba6651976a868c49e11150e510c0486c353ece050827754"
     end
     on_arm do
-      url "https://github.com/cotlang/cot/releases/download/v0.3.8/cot-aarch64-linux.tar.gz"
-      sha256 "64d4eea1b16ead501d6504656c53a6ce7edf46f651427c563a21e8474685ccbd"
+      url "https://github.com/cotlang/cot/releases/download/v0.3.9/cot-aarch64-linux.tar.gz"
+      sha256 "62515554d3f44dfd02f475f24f21906190c79d39d827e908936c990b7c9785d4"
     end
   end
 
