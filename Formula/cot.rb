@@ -7,18 +7,18 @@ class Cot < Formula
   on_macos do
     on_arm do
       url "https://github.com/cotlang/cot/releases/download/v0.4.1/cot-aarch64-macos.tar.gz"
-      sha256 "b7263f7b4f770a4814a44a848c9e9f794df488f90b4c73958d9025c2dcc52c28"
+      sha256 "52430f57186838fb902c5ed5461b50c8dbfff62461f4b4f4f049e36163330295"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/cotlang/cot/releases/download/v0.4.1/cot-x86_64-linux.tar.gz"
-      sha256 "8d7ef7e0d4010e78c526c84ab0ac1e467dee4020d6a5fe4d7c5a28db02c76a06"
+      sha256 "0e0bce2dba5051f4aad989217d9f683510d907378daaf4144e281da01598ec4e"
     end
     on_arm do
       url "https://github.com/cotlang/cot/releases/download/v0.4.1/cot-aarch64-linux.tar.gz"
-      sha256 "c24078103ce4329a25d0ee57e32362425c1493b60dcc3d6bfa576765a75352b5"
+      sha256 "5c2950610f42efb5f2632ca87d1cdc27a1bf6385d64e6ebedb2d698d8a1c4e40"
     end
   end
 
